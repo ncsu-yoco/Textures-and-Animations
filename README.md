@@ -1,2 +1,4 @@
 # Textures-and-Animations
-ability to map custom textures to surface of objects and translate, scale, rotate model on keyboard presses
+
+* An program using OpenGL which enables user to map custom textures on multiple objects.
+* Translation, scaling and rotation in the scene can be achieved by keyboard presses.

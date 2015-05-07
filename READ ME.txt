@@ -1,0 +1,85 @@
+
+	= > = > = >  I M P O R T A N T  < = < = < =
+
+	The code was developed on a UNIX system using Xcode , generated executable along with necessary files is provided.
+	Please let me know if you have any issues running the project.
+
+		= > = > = >       < = < = < = 
+
+--------------------------------------------------------------------------------------------
+
+	***Contents of directory***
+	- - - - - - - - - - - - - - - - - - - - - -
+	i.    main.cpp	(Source Code)
+	ii.   Pg2_opengl_kmsomani (a UNIX executable)
+	iii.  READ_ME.txt
+	iv.   extracredits_kmsomani.txt
+	v.    inputs folder(containing .obj and .mtl files and .bmp files)
+	vi.   view.txt
+	vii.  lights.txt
+	viii. window.txt
+
+--------------------------------------------------------------------------------------------
+
+Following operations on image can be performed
+
+1. Translation :
+
+	Key		Axis
+    - - - - - - - - - - - - - - - - 
+	Left Arrow	- X
+	Right Arrow	+ X
+	Up Arrow	+ Y
+	Down Arrow	- Y
+	    [		+ Z
+	    ]		- Z
+
+2. Zooming
+
+	Key		Axis
+    - - - - - - - - - - - - - - - - 
+	z		Zoom In
+	x		Zoom Out
+
+
+3. Rotation
+
+	Key		Axis
+    - - - - - - - - - - - - - - - - 
+	    q		  Z Clockwise
+	    w		  Z Anti-Clockwise
+	    e		  Y Clockwise
+	    r		  Y Anti-Clockwise
+	    t		  Z Clockwise
+	    y		  Z Anti-Clockwise
+
+4. Select Texture or Object
+
+	Right Click and you will get option to choose for any available textures or objects
+	To check for any new texture/object, just place the file in the inputs folder and the code will automatically fetch it and make it available for use.
+
+--------------------------------------------------------------------------------------------
+
+				**** window.txt ****
+stores the number of pixels along X and Y dimensions
+			-----------------------------------
+				**** view.txt ****
+sets co-ordinates of eye,lookAt vector and viewUp vector
+			-----------------------------------
+				**** lights.txt ****
+stores the location of various light sources used to illuminate the scene
+
+--------------------------------------------------------------------------------------------
+
+		* * *   E X I T   C o d e s   D e t a i l s   * * * 
+
+If the code returns with following exit codes, following conclusions can be made
+
+exited with code 0  : the program completed its execution successfully!!
+exited with code 11 : .obj file NOT found
+exited with code 12 : .mtl file NOT found
+exited with code 13 : window.txt file NOT found
+exited with code 14 : view.txt file NOT found
+exited with code 15 : lights.txt file NOT found
+
+--------------------------------------------------------------------------------------------

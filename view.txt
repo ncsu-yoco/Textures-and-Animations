@@ -1,0 +1,6 @@
+#	Stores Co-ordinates of eye in Eye [x y z]
+# 	Specifies the ViewUp Vector [x y z] and LookAt [x y z] vector for the the scene
+
+ViewUp 0 1 0
+Eye 00 0 10
+LookAt 0 0 0

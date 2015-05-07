@@ -1,0 +1,33 @@
+
+
+--------------------------------------------------------------------------------------------
+			= = = > extracredit_kmsomani.txt < = = =
+--------------------------------------------------------------------------------------------
+
+
+
+Following parts were done for extra credits as specified in the problem statement
+
+	1. Arbitrarily sized interface windows. (size can be specified in window.txt)
+
+	2. Arbitrary viewing setups. (eye location and look-at and view-up vector can be specified in view.txt)
+
+	3. Multiple and arbitrarily placed light sources. (coordinates for light sources can be specified in lights.txt)
+
+--------------------------------------------------------------------------------------------
+
+Following parts were done in addition to the problem statement specified.
+
+	1. The object can be rotated along any axis. (key mappings for rotation are specified in READ_ME.txt)
+
+	2. To add new object or texture, simply place the files in the folder ‘inputs’ and the code will automatically fetch and display the valid files in the menu.
+
+	3. The user can change not only textures but also object using the option specified in the menu.
+
+--------------------------------------------------------------------------------------------
+
+Following parts describe the approach I took to raster image with textures
+
+	1. The code for .obj parser was written by myself and it handles faces with more than 3 vertices.
+
+	2. The mapping of texture co-ordinates was implemented using a trigonometric function(sine) which oscillates in value 0 to 1 and  helped me to determine texture co-ordinates for various vertices on the face.

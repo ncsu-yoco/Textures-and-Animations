@@ -1,0 +1,10 @@
+#	Stores Co-ordinates of Light [x y z]
+# The code will accept only up to 7 light sources mentioned below
+# All additional light sources will not be considered
+
+Light 10 10 10
+Light -10 -10 -10
+Light 100 100 100
+Light -100 -100 -100
+Light 50 50 50
+Light -50 -50 -50
